@@ -1,16 +1,15 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class CoverScreen extends StatefulWidget {
-  const CoverScreen({super.key});
+class Coverscreen extends StatefulWidget {
+  const Coverscreen({super.key});
 
   @override
-  State<CoverScreen> createState() => _CoverScreenState();
+  State<Coverscreen> createState() => _CoverscreenState();
 }
 
-class _CoverScreenState extends State<CoverScreen> {
+class _CoverscreenState extends State<Coverscreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center());
+    return Scaffold();
   }
 }
