@@ -55,10 +55,10 @@ final darkGameColorScheme = ColorScheme(
 class LightGameColors {
   static const Color background = Color(0xFFF4F6FF);
 
-  static const Color primary = Color(0xFF3A86FF); // Blue paddle
+  static const Color primary = Color(0xFF3A86FF);
   static const Color onPrimary = Color(0xFFFFFFFF);
 
-  static const Color secondary = Color(0xFFFF006E); // Neon pink bricks
+  static const Color secondary = Color(0xFFFF006E);
   static const Color onSecondary = Color(0xFFFFFFFF);
 
   static const Color accent = Color(0xFFFFBE0B); // Yellow highlights

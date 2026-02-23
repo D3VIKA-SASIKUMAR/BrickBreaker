@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class Player extends StatelessWidget {
-  final playerX;
-  final playerWidth;
-  const Player({this.playerX, this.playerWidth});
+  final double playerX;
+  final double playerWidth;
+  const Player({super.key, required this.playerX, required this.playerWidth});
 
   @override
   Widget build(BuildContext context) {
