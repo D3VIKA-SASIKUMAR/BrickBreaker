@@ -1,5 +1,5 @@
 import 'package:brickbreakdown/theme/colorscheme.dart';
-import 'package:brickbreakdown/view/homepage.dart';
+import 'package:brickbreakdown/view/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       themeMode: ThemeMode.dark,
-      home: HomePage(),
+      home: const SplashScreen(),
     );
   }
 }
