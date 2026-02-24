@@ -261,7 +261,6 @@ class _HomePageState extends State<HomePage> {
           body: Center(
             child: Stack(
               children: [
-                // Bricks
                 ...myBricks.map(
                   (brick) => Brick(
                     brickX: brick[0] as double,
@@ -273,10 +272,8 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
 
-                // Tap to play screen
                 Coverscreen(hasGameStarted: hasGameStarted),
 
-                // Game Over / Win Screen
                 if (isGameOver)
                   Container(
                     alignment: const Alignment(0, -0.2),

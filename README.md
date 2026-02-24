@@ -1,6 +1,10 @@
-# brickbreakdown
+# Tricky Brick (Brick Breaker)
 
-A new Flutter project.
+A Flutter Brick Breaker clone inspired by Mitch Koko's "BRICK BREAKER • Flutter Game from Scratch" tutorial. 
+
+## Demo
+
+![Tricky Brick Demo](demo.png)
 
 ## Getting Started
 
