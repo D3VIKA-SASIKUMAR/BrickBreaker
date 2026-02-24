@@ -4,7 +4,9 @@ A Flutter Brick Breaker clone inspired by Mitch Koko's "BRICK BREAKER • Flutte
 
 ## Demo
 
-![Tricky Brick Demo](demo.png)
+<p align="center">
+  <img src="demo.png" width="250"/>
+</p>
 
 ## Getting Started
 
